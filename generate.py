@@ -69,7 +69,7 @@ BADGES_DIR = ROOT / "nuvio" / "badges"
 # =============================================================================
 
 # Change this to wherever the badge assets are hosted.
-BADGE_BASE_URL = "https://raw.githubusercontent.com/dormindev/Nekuvio/refs/heads/development/nuvio/badges"
+BADGE_BASE_URL = "https://raw.githubusercontent.com/dormindev/nekuvio-badges/refs/heads/main/nuvio/badges"
 
 # Currently only SVG is generated.
 BADGE_FORMAT = "svg"
