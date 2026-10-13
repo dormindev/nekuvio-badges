@@ -75,10 +75,6 @@ function encodeBase4(
 
 
 function encodeBadge(payload: string): string {
-  if (!payload) {
-    return "";
-  }
-
   const magic = encodeBase4(
     NEKOBT_PROTOCOL.magic,
     NEKOBT_PROTOCOL.magicWidth,
@@ -88,10 +84,6 @@ function encodeBadge(payload: string): string {
     NEKOBT_PROTOCOL.version,
     NEKOBT_PROTOCOL.versionWidth,
   );
-
-  if (!magic || !version) {
-    return "";
-  }
 
   return (
     INVISIBLE_MARKERS.start +
